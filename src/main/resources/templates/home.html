@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html layout:decorate="~{layout}">
+
+<head>
+    <link th:href="@{/css/post.css}" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="layout-content" layout:fragment="corpo">
+        <div th:replace="fragments/posts :: posts"></div>
+    </section>
+</body>
+
+</html>
